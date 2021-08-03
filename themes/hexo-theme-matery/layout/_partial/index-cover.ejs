@@ -81,6 +81,16 @@ var coverPostsCount = coverPosts.length;
                         <i class="fab fa-github %>"></i><%= theme.githubLink.title %>
                     </a>
                 <% } %>
+
+                <% if (theme.indexbtn2 && theme.indexbtn2.enable) { %>
+                    <a href="<%- url_for(theme.indexbtn2.url) %>" class="waves-effect waves-light btn" target="_blank">
+                        <i class="<%- theme.indexbtn2.icon %>"></i><%= theme.indexbtn2.name %>
+                    </a>
+                <% } else if (theme.giteeLink.enable) { %>
+                    <a href="<%- theme.giteeLink.url %>" class="waves-effect waves-light btn" target="_blank">
+                        <i class="fab fa-git-square %>"></i><%= theme.giteeLink.title %>
+                    </a>
+                <% } %>
             </div>
             <div class="cover-social-link"><%- partial('_partial/social-link') %></div>
         </div>

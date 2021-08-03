@@ -279,6 +279,8 @@ readers do not read off random characters that represent icons */
 .fa-angle-double-down:before {
   content: "\f103"; }
 
+
+  
 .fa-angle-double-left:before {
   content: "\f100"; }
 

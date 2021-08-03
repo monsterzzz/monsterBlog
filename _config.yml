@@ -102,4 +102,6 @@ theme: hexo-theme-matery
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
+  type: "git"
+  repository: git@github.com:monsterzzz/monster.github.io.git
+  branch: main

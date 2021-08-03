@@ -128,6 +128,12 @@ indexbtn:
   icon: fab fa-github-alt
   url: https://github.com/monsterzzz
 
+indexbtn2:
+  enable: true
+  name: Gitee
+  icon: fab fa-git-square
+  url: https://gitee.com/monsterzzz
+
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
@@ -383,6 +389,10 @@ githubLink:
   url: https://github.com/monsterzzz
   title: Fork Me
 
+giteeLink:
+  enable: true
+  url: https://gitee.com/monsterzzz
+  title: Fork Me
 # The password verification feature of read post. To use this feature,
 # activate the configuration item and write the 'password' key and Cipher in the post's Front-matter.
 # Note: In order to ensure that the original password will not be leaked to the web page,
